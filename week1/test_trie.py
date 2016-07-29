@@ -29,8 +29,6 @@ class TestTrieInsertMany:
             }],
         }]
 
-
-
     def test_builds_a_trie_2(self):
         trie = Trie()
         trie.insert_many(['ATAGA', 'ATC', 'GAT'])
